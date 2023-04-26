@@ -1,0 +1,49 @@
+.HeaderSection {
+    display: flex;
+ margin-left: 15px
+}
+
+.Menu {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.Menuone {
+    display: flex;
+    margin-left: 800px;
+}
+
+.BurgerMenu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .Menu {
+        display: none;
+    }
+
+    .Menuone {
+        display: none;
+    }
+
+    .BurgerMenu {
+        display: flex;
+        margin-left: auto;
+        margin-top: 12px;
+        margin-right: 20px;
+        outline:none;
+        border: none;
+        background-color: #fff;
+    }
+
+    .BurgerMenuIcon{
+        justify-content: center;
+    }
+
+    .and p {
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+}

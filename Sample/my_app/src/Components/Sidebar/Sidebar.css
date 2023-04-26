@@ -1,0 +1,100 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.Sidecontainer {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  
+  padding-left: 20px;
+  padding-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Search {
+  margin-top: 20px;
+  margin-left:0px;
+}
+
+.SearchInput {
+  width: 100%;
+  height: 35px;
+margin-left: 5px;
+margin-right: 10px;
+
+}
+
+.Attributes {
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.HomeTag {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.SwitchBtn {
+  display: flex;
+padding-left: 14px;
+  
+}
+
+.SelectOption1 {
+   padding-left: 31px;
+   padding-top: 1px
+  ;
+}
+
+.SelectOption2 {
+  padding-left: 18px
+}
+.list {
+margin-top: 15px;
+padding-right: 1000px;
+
+
+padding-left: 2px;
+}
+.list2 {
+padding-left: 2px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+.list3 {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.document {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 10px;
+}
+element.style {
+  height: 1px;
+  width: 1px;
+}
+.p-buttonset .p-button:last-of-type {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 1px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .Sidecontainer {
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    min-height: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
